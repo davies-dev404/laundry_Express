@@ -6,15 +6,19 @@ import { ArrowRight, Truck } from "lucide-react";
 export function Hero() {
   return (
     <section id="home" className="relative min-h-[90vh] flex items-center overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background Video with Overlay */}
       <div className="absolute inset-0 z-0">
-        {/* Unsplash image of clean clothes/laundry */}
-        <img
-          src="https://images.unsplash.com/photo-1545173168-9f1947eebb8f?q=80&w=2071&auto=format&fit=crop"
-          alt="Clean laundry background"
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/70 to-slate-900/30" />
+        >
+          <source src="/videos/hero-laundry.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-slate-900/60" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/40 to-transparent" />
       </div>
 
       <div className="container relative z-10 mx-auto px-4 md:px-6 pt-20">
