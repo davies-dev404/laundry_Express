@@ -2,7 +2,7 @@
 
 A premium laundry service web application built for the Nairobi community. Providing exceptional garment care with convenience, speed, and sustainability.
 
-![Hero Section](client/public/screenshots/hero-desktop.png)
+![Hero Section](screenshots/landing-page.png)
 
 ## 🚀 Features
 
