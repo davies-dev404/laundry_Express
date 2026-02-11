@@ -31,19 +31,13 @@ A premium laundry service web application built for the Nairobi community. Provi
 
 ### Installation
 
-1. Navigate to the client directory:
-
-   ```bash
-   cd client
-   ```
-
-2. Install dependencies:
+1. Install dependencies:
 
    ```bash
    npm install
    ```
 
-3. Start the development server:
+2. Start the development server:
    ```bash
    npm run dev
    ```
@@ -52,10 +46,10 @@ The application will be available at `http://localhost:5173`.
 
 ## 📂 Project Structure
 
-- `/client`: Frontend source code
+- `/src`: Frontend source code
   - `/src/components`: Reusable UI components
   - `/src/pages`: Main page components
-  - `/public`: Static assets (images, videos)
+- `/public`: Static assets (images, videos)
 
 ---
 
