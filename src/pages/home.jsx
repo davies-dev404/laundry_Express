@@ -10,8 +10,8 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { 
-  ArrowRight, Calendar, Package, DollarSign, Newspaper, 
-  MessageCircle, Target, Heart, Zap, Shield, Quote,
+  ArrowRight, Calendar, Package, DollarSign, 
+  Target, Heart, Zap, Shield, Quote,
   Sparkles, Shirt, Wind, BedDouble, Eye, Users, CheckCircle
 } from "lucide-react";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Shirt, MapPin, Phone, Mail, Clock, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Twitter } from "lucide-react";
 import { Logo } from "./logo";
 
 function Footer() {

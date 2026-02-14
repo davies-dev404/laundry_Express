@@ -50,7 +50,6 @@ export default defineConfig({
           ],
           "vendor-motion": ["framer-motion"],
           "vendor-icons": ["lucide-react", "react-icons"],
-          "vendor-charts": ["recharts"],
         },
       },
     },

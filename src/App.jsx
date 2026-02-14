@@ -15,7 +15,7 @@ import PrivacyPolicy from "@/pages/privacy";
 import TermsOfService from "@/pages/terms";
 import Gallery from "@/pages/gallery";
 import NotFound from "@/pages/not-found";
-import { StickyCTA } from "@/components/ui/sticky-cta";
+
 
 function Router() {
   return /* @__PURE__ */ React.createElement(Switch, null, /* @__PURE__ */ React.createElement(Route, { path: "/", component: Home }), /* @__PURE__ */ React.createElement(Route, { path: "/about", component: AboutPage }), /* @__PURE__ */ React.createElement(Route, { path: "/services", component: ServicesPage }), /* @__PURE__ */ React.createElement(Route, { path: "/services/:slug", component: ServiceDetail }), /* @__PURE__ */ React.createElement(Route, { path: "/gallery", component: Gallery }), /* @__PURE__ */ React.createElement(Route, { path: "/pricing", component: PricingPage }), /* @__PURE__ */ React.createElement(Route, { path: "/accessibility", component: Accessibility }), /* @__PURE__ */ React.createElement(Route, { path: "/privacy", component: PrivacyPolicy }), /* @__PURE__ */ React.createElement(Route, { path: "/terms", component: TermsOfService }), /* @__PURE__ */ React.createElement(Route, { path: "/contact", component: ContactPage }), /* @__PURE__ */ React.createElement(Route, { component: NotFound }));
