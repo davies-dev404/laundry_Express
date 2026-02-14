@@ -1,0 +1,15 @@
+
+> rest-express@1.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+error during build:
+Cannot find module 'C:\Users\HomePC\Desktop\Laundry-Express-Nairobi\node_modules\rollup\dist\es\shared\node-entry.js' imported from C:\Users\HomePC\Desktop\Laundry-Express-Nairobi\node_modules\rollup\dist\es\rollup.js
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'C:\Users\HomePC\Desktop\Laundry-Express-Nairobi\node_modules\rollup\dist\es\shared\node-entry.js' imported from C:\Users\HomePC\Desktop\Laundry-Express-Nairobi\node_modules\rollup\dist\es\rollup.js
+    at finalizeResolution (node:internal/modules/esm/resolve:274:11)
+    at moduleResolve (node:internal/modules/esm/resolve:864:10)
+    at defaultResolve (node:internal/modules/esm/resolve:990:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:755:20)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:732:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:317:38)
+    at #link (node:internal/modules/esm/module_job:208:49)
